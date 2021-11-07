@@ -18,13 +18,13 @@ private final BotSendMessageService botSendMessageService;
 	
 
 	public final static String START_MESSAGE = "I know such commands: \n"
-												+ "/+      to  join event\n"
-												+ "/+X     to  take someone with you\n"
-												+ "/-      to  left event\n"
-												+ "/-X     to  cancel guest invitation\n"
-												+ "/price  to  X  set event price\n"
-												+ "/list   to  look list of people\n"
-												+ "/reset  to  start new event"	;
+												+ "/+      	to  join event\n"
+												+ "/+X     	to  take someone with you\n"
+												+ "/-      	to  left event\n"
+												+ "/-X     	to  cancel guest invitation\n"
+												+ "/price X to  set event price\n"
+												+ "/list   	to  look list of people\n"
+												+ "/reset  	to  start new event"	;
 	
 	public StartCommand(BotSendMessageService botSendMessageService) {
 	       this.botSendMessageService = botSendMessageService;
